@@ -1,0 +1,22 @@
+{
+    "name": "greekshow/greek",
+    "description": "this is my first packge",
+    "type": "library",
+    "authors": [
+        {
+            "name": "pradip008",
+            "email": "pradipvmg1996@gamil.com"
+        }
+    ],
+    "require": {
+        "nette/forms": "^3.1"
+    },
+
+      
+   "autoload" : {
+        "classmap" : [ 
+             "asset/"
+        ]
+   }
+   
+}
